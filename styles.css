@@ -11,8 +11,6 @@ color:inherit;#444;
 text-shadow: 1px 1px 0px #fff;
 }
 
-
-{
 html, body{
   font-family: "Helvetica Neue", "Helvetica", "sans-serif"
   font-size: 18px;
@@ -31,4 +29,10 @@ img{
   border-radius:50%;
 }
 
+.hero{
+  outline: 1px solid red;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
 }
