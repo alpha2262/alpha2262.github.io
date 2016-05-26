@@ -1,3 +1,9 @@
+
+//* TODO why use hero?
+Is there a way to auto-add pages instead of mannually adding each time?
+How do I get the nav bar to come in front of content?
+*//
+
 *{
 margin:0
 padding:0
@@ -11,28 +17,70 @@ color:inherit;#444;
 text-shadow: 1px 1px 0px #fff;
 }
 
-html, body{
-  font-family: "Helvetica Neue", "Helvetica", "sans-serif"
+body{
+  font-family: 'Muli', sans-serif;
   font-size: 18px;
   line-height: 30px;
   color:#444;
+  text-align: left;
+  padding-top: 50px;
 }
-body{
+
+nav{
+  text-decoration-style: wavy;
+  text-transform: full-width;
+  text-align: center;
+  list-style-type: none;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  float: right;
+  color: blue;
+  background-color: #dddddd;
+  display: block;
+  border-style: none;
+}
+
+nav a:hover{
+  background-color: #39AC4E;
+  color: white;
+}
+
+.active{
+  color: blue;
+  background-color: #F8FBA5;
+  border-style:none;
+  display:inline-flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+head{
   text-align: center;
 }
+
 h1{
   font-size: 36px;
   line-height: 50px;
   font-weight: bold;
 }
+
 img{
-  border-radius:50%;
+  width: 30%;
+  height:auto;
+  outline: green;
+  outline: 50px;
+  border-radius: 50%;
+  text-align: center;
+  position:relative;
 }
 
-.hero{
+/*.hero{
   outline: 1px solid red;
-  height: 100vh;
+  height: auto;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content:center;
-}
+  border-radius: 70%;
+}*/
