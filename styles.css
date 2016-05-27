@@ -1,8 +1,8 @@
 
-//* TODO why use hero?
-Is there a way to auto-add pages instead of mannually adding each time?
-How do I get the nav bar to come in front of image?
-How to change link color?
+//* TODO things to figure out/fix:
+~ why use hero?
+~Is there a way to auto-add pages for inclusion in the nav sections instead of mannually adding each time?
+~How to change hyper-link color? Shows as standard blue when not clicked, purple when clicked.
 *//
 
 *{
@@ -14,7 +14,7 @@ font-weight:inherit;
 font-family: inherit;
 text-decoration: inherit;
 line-height: inherit;
-color:inherit;#444;
+color:#444;
 text-shadow: 1px 1px 0px #fff;
 }
 
@@ -23,8 +23,22 @@ body{
   font-size: 18px;
   line-height: 30px;
   color:#444;
-  text-align: left;
   padding-top: 50px;
+  padding-left: 20px;
+}
+
+p{
+  text-align: left;
+}
+
+p:hover{
+  background-color: #39AC4E;
+  color: white;
+  display:inline-block;
+  opacity: 50%;
+  transition-duration: 5s;
+  border-radius: 75%
+  padding: 20px;
 }
 
 nav{
@@ -39,12 +53,13 @@ nav{
   color: blue;
   background-color: #dddddd;
   display: block;
-  border-style: none;
+  border-style:none;
 }
 
 nav a:hover{
   background-color: #39AC4E;
   color: white;
+  display:inline-block;
 }
 
 .active{
@@ -52,8 +67,6 @@ nav a:hover{
   background-color: #F8FBA5;
   border-style:none;
   display:inline-flex;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 head{
@@ -64,16 +77,29 @@ h1{
   font-size: 36px;
   line-height: 50px;
   font-weight: bold;
+  text-align: center;
+}
+
+h2{
+  font-size: 15px;
+  line-height:inherit;
+  font-style: italic;
+  text-align: center;
 }
 
 img{
   width: 30%;
   height:auto;
-  outline: green;
-  outline: 50px;
   border-radius: 50%;
-  text-align: center;
-  position:relative;
+  position:static;
+
+}
+
+.center {
+  width: 50%;
+  margin:auto;
+  border: 5px solid black;
+  padding: 10px;
 }
 
 /*.hero{
