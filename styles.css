@@ -38,6 +38,7 @@ p{
   padding-bottom: 5px;
 }
 
+
 .external-links li:hover{
   background-color: #e1bee7;
   display:inline-block;
@@ -103,14 +104,13 @@ h5 {
   text-align:left;
 }
 
-}
-
-img {
+/*img {
   width: 30%;
   height:auto;
   border-radius: 50%;
   position:static;
-}
+  margin: auto;
+}*/
 
 #index-page1 {
   opacity: 0%;
@@ -119,12 +119,19 @@ img {
   transition-delay: 1s;
 }
 
-/*#index-page2 {
-  copy index 1; delay 2 s
-}*/
+#index-page2 {
+  text-align: center;
+  /*copy index 1; delay 2 s*/
+}
 
 
-.center .picture {
+.picture {
+  border-radius: 50%;
+  margin:inherit;
+  width: inherit;
+}
+
+.center {
   width: 50%;
   margin:auto;
   border: 5px solid black;
