@@ -1,24 +1,58 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Michael Holzheimer: Projects</title>
     <link rel="stylesheet" href="styles.css" />
     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="About_Me.html">About Me</a>
-      <a href="Interests.html">Interests</a>
-      <a href="projects.html" class="active">Projects</a>
-    </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 
-<img="projects1" scr="https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png" alt="javascript"/>
 
 <body>
-  <h1>Projects</h1>
-  <h2>Below are projects I've worked on. Please feel free to cotact me should you have any questions! </h2>
-  <p> TBD </p>
+  <div class="navbar-fixed">
+      <nav>
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"></a>
+            <ul class="left hide-on-med-and-down">
+              <li><a href="about_me.html"><i class="material-icons left">person</i>About Me</a></li>
+              <li class="active"><a href="projects.html"><i class="material-icons left">view_module</i>Projects</a></li>
+              <li><a href="contact.html"><i class="material-icons left">phone</i>Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+  <h1>Featured Projects</h1>
+  <h4>Below are projects I've worked on. Please feel free to contact me should you have any questions!</h4>
+  <h5>Time2Go</h5>
+    <p>Directions tool for optimal mode (e.g. drive, transit) given preference selection (e.g. weather, trip cost).</p>
+    <p>Stack: Javascript, Google Maps API, GitHub Pages front end</p>
+      <ul class="external-links">
+        <li><a href="http://alpha2262.github.io/carbegone/map3"><i class="material-icons left">web</i>Deployed Site</a></li>
+        <li><a href="https://github.com/alpha2262/carbegone"><i class="material-icons left">computer</i>Github Repo</a></li>
+      </ul>
+      <br />
+  <h5>DC New/Renovated Buildings Development Map</h5>
+      <p>Database for tracking new developments and buildings rennonvations in the DC area. Users can add new locations, update existing entries, add comments as construction progresses, and delete when construction has completed.</p>
+      <p>Stack: Ruby on Rails, Heroku, Google Maps API</p>
+        <ul class="external-links">
+            <li><a href="https://dc-development-map.herokuapp.com/"><i class="material-icons left">web</i>Deployed Site</a></li>
+            <li><a href="https://github.com/alpha2262/DC_development_map"><i class="material-icons left">computer</i>Github Repo</a></li>
+        </ul>
+        <br />
+  <h5>In the Momement</h5>
+    <p>Team project where we created a friend and dating app with user reactions (moments) to provide a better matching experience.</p>
+    <p>Stack: AngularJS, Ruby on Rails, Heroku back end, GitHub Pages front end</p>
+      <ul class="external-links">
+        <li><a href="https://seantay.github.io/In-the-moment/"><i class="material-icons left">web</i>Deployed Site</a></li>
+        <li><a href="https://github.com/SeanTay/In-the-moment"><i class="material-icons left">computer</i>Github Repo (front end)</a></li>
+        <li><a href="https://github.com/SeanTay/datingapp-rails"><i class="material-icons left">computer</i>Github Repo (back end)</a></li>
+      </ul>
+      <br />
 
+  <!-- <h5>Concentration</h5>
+    <p>First javascript project I developed. A simple concentration game for mathcing squares</p> -->
 
-</body>
+  </body>
 </html>
