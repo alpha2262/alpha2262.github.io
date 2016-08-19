@@ -25,6 +25,7 @@ body{
   color:#444;
   padding-top: 50px;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 p{
@@ -67,11 +68,11 @@ nav{
   border-style:none;
 }
 
-nav a:hover{
+/*nav a:hover{
   background-color: #39AC4E;
   color: white;
   display:inline-block;
-}
+}*/
 
 .active{
   color: blue;
@@ -102,6 +103,7 @@ h5 {
   line-height:inherit;
   font-style: bold;
   text-align:left;
+  padding-top: 10px;
 }
 
 /*img {
