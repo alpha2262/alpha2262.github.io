@@ -1,12 +1,6 @@
 
-//* TODO things to figure out/fix:
-~ why use hero?
-~Is there a way to auto-add pages for inclusion in the nav sections instead of mannually adding each time?
-~How to change hyper-link color? Shows as standard blue when not clicked, purple when clicked.
-*//
-
 *{
-margin:0;
+margin: 0;
 padding:0;
 border:0;
 font-size:inherit;
@@ -14,23 +8,24 @@ font-weight:inherit;
 font-family: inherit;
 text-decoration: inherit;
 line-height: inherit;
-color:#444;
-text-shadow: 1px 1px 0px #fff;
+/*color:#444;
+text-shadow: 1px 1px 0px #fff;*/
 }
 
-body{
+.content{
   font-family: 'Muli', sans-serif;
   font-size: 18px;
   line-height: 30px;
   color:#444;
+  text-shadow: 1px 1px 0px #fff;
   padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-p{
-  text-align: left;
-}
+/*:not(.no-shadow){
+  text-shadow: none;
+}*/
 
 .external-links li{
   padding-left: 10px;
@@ -48,7 +43,6 @@ p{
   padding: 20px;
   transition: all 2s ease;
   border-radius: 35%;
-  /*transition-duration: 3s;*/
 }
 
 
@@ -92,8 +86,8 @@ h1{
   text-align: center;
 }
 
-h4{
-  font-size: 15px;
+.content h4{
+  font-size: 2.00rem;
   line-height:inherit;
   font-style: italic;
   text-align: center;
@@ -104,6 +98,10 @@ h5 {
   font-style: bold;
   text-align:left;
   padding-top: 10px;
+}
+
+p{
+  text-align: justify;
 }
 
 /*img {
