@@ -7,10 +7,10 @@
 * images scrolling across contact me page?
 * figure out what CNAME file is
 * pull down headshot files
+* add streetcar picture to contact page?
 
 Higher priority updates:
-* more verbose about me section w/skills and better layout
-* add tech skills
+* update time2Go app link
 * fade in transition for welcome page on text
-* favicon add
+* favicon add?
 * mobile not displaying nav bar? whyyyyy (added code in about section)
