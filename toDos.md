@@ -1,3 +1,5 @@
+To Do items:
+
 * add pictures of projects; position on left-hand side?
 * add any other projects?
 * switch to angular library? check materlize plays nicely with angular(it should, both google)
@@ -10,7 +12,6 @@
 * add streetcar picture to contact page?
 
 Higher priority updates:
-* update time2Go app link
 * fade in transition for welcome page on text
 * favicon add?
 * mobile not displaying nav bar? whyyyyy (added code in about section)
