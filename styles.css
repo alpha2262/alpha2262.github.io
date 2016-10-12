@@ -81,6 +81,12 @@ h1{
   text-align: center;
 }
 
+.introItalics {
+  font-style: italic;
+  text-align: center;
+  position: inherit;
+}
+
 h5 {
   line-height:inherit;
   font-style: bold;
@@ -96,6 +102,8 @@ p{
   border-radius: 50%;
   margin:inherit;
   width: inherit;
+  float:left;
+  padding-right: 10px;
 }
 
 .center {
