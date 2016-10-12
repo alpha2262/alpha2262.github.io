@@ -84,6 +84,7 @@ h1{
 .introItalics {
   font-style: italic;
   text-align: center;
+  position: inherit;
 }
 
 h5 {
@@ -101,6 +102,8 @@ p{
   border-radius: 50%;
   margin:inherit;
   width: inherit;
+  float:left;
+  padding-right: 10px;
 }
 
 .center {
