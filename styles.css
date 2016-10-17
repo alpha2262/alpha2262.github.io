@@ -87,6 +87,11 @@ h1{
   position: inherit;
 }
 
+.highlight {
+  color: "yellow";
+  background-color: "yellow";
+}
+
 h5 {
   line-height:inherit;
   font-style: bold;
