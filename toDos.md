@@ -6,14 +6,15 @@ To Do items:
 * icons to contact info?
 * html and css validator
 * images scrolling across contact me page?
-* figure out what CNAME file is
 * pull down headshot files
 * add streetcar picture to contact page?
 * add JS to boost projects notification?
+* DRY up content where possible
 
 Higher priority updates:
 * fade in transition for welcome page on text
 * DONE favicon add?
-* left-center about me text and image with overflow
+* DONE left-center about me text and image with overflow
+* Switch to single page app using jquery?
 * add pictures of projects; position on left-hand side?
 * mobile not displaying nav bar? whyyyyy (added code in about section)
