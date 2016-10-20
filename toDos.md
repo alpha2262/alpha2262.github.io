@@ -10,6 +10,7 @@ To Do items:
 * add streetcar picture to contact page?
 * add JS to boost projects notification?
 * DRY up content where possible
+* flexbox time!
 
 Higher priority updates:
 * fade in transition for welcome page on text
