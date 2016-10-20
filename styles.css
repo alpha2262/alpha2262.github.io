@@ -31,7 +31,7 @@ line-height: inherit;
 .external-links li:hover{
   background-color: #e1bee7;
   display:inline-block;
-  opacity: 50%;
+  opacity: .8;
   border-radius: 75%;
   padding: 20px;
   transition: all 2s ease;
@@ -87,7 +87,6 @@ h1{
 
 h5 {
   line-height:inherit;
-  font-style: bold;
   text-align: left;
   padding-top: 10px;
 }
