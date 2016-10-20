@@ -16,9 +16,9 @@ line-height: inherit;
   line-height: 30px;
   color:#444;
   text-shadow: 1px 1px 0px #fff;
-  padding-top: 50px;
+  /*padding-top: 50px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 20px;*/
 }
 
 .external-links li{
@@ -81,19 +81,23 @@ h1{
 
 .introItalics {
   font-style: italic;
-  text-align: center;
+  text-align: justify;
   position: inherit;
 }
 
 h5 {
   line-height:inherit;
   font-style: bold;
-  text-align:left;
+  text-align: left;
   padding-top: 10px;
 }
 
 p{
   text-align: justify;
+}
+
+.centerText {
+  text-align: center;
 }
 
 .picture {
@@ -105,11 +109,11 @@ p{
 }
 
 .projectPicture {
-  
-  margin-right: 20px;
-  width: 30%;
-  float: left;
-
+  margin: 20px;
+  max-width: 200%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 10%;
 }
 
 .center {
@@ -117,4 +121,10 @@ p{
   margin:auto;
   border: 5px solid black;
   padding: 10px;
+}
+
+.bullets {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 10px;
 }

@@ -1,75 +1,108 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Michael Holzheimer: Projects</title>
-    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="stylesheet" href="styles.css" />
-    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="./app.js"></script>
-  </head>
+<html lang="en">
+<head>
+  <title>Michael Holzheimer: Projects</title>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="./app.js"></script>
+</head>
 
 
 <body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <div class="navbar-fixed">
-      <nav class="no-shadow">
-          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"></a>
-            <ul class="left hide-on-med-and-down">
-              <li><a href="index.html"><i class="material-icons left">person</i>About Me</a></li>
-              <li class="active"><a href="projects.html"><i class="material-icons left">view_module</i>Projects</a></li>
-              <li><a href="contact.html"><i class="material-icons left">phone_iphone</i>Contact Me</a></li>
-            </ul>
-          </div>
-        </nav>
+    <nav class="no-shadow">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"></a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="index.html"><i class="material-icons left">person</i>About Me</a></li>
+          <li class="active"><a href="projects.html"><i class="material-icons left">view_module</i>Projects</a></li>
+          <li><a href="contact.html"><i class="material-icons left">phone_iphone</i>Contact Me</a></li>
+        </ul>
       </div>
-<div class="content">
-  <h1>Featured Projects</h1>
-  <h4>Below are projects I've worked on. Please feel free to contact me should you have any questions!</h4>
-  <h5>Time2Go</h5>
-    <img class="projectPicture" src="images/Time2Go.png" alt="time2go screenshot"/>
-    <p>Directions tool for optimal mode (e.g. drive, transit) given preference selection (e.g. weather, trip cost).</p>
-    <p>Stack: Javascript, Google Maps API, GitHub Pages front end</p>
-      <ul class="external-links">
-        <li><a href="http://alpha2262.github.io/time2go/index" target="_blank"><i class="material-icons left">web</i>Deployed Site</a></li>
-        <li><a href="https://github.com/alpha2262/time2go" target="_blank"><i class="material-icons left">computer</i>Github Repo</a></li>
-      </ul>
-      <br />
-  <h5>DC New/Renovated Buildings Development Map</h5>
-    <img class="projectPicture" src="images/BuildingsMap4.png" alt="DC New and renovated buildings development map screenshot"/>
-      <p>Database for tracking new developments and buildings renovations in the DC area. Users can add new locations, update existing entries, add comments as construction progresses, and delete when construction has completed.</p>
-      <p>Stack: Ruby on Rails, Heroku, Google Maps API</p>
-        <ul class="external-links">
+    </nav>
+  </div>
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="col s12">
+          <h1>Featured Projects</h1>
+          <h4>Below are projects I've worked on. Please feel free to contact me should you have any questions!</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s3">
+          <img class="projectPicture" src="images/Time2Go.png" alt="time2go screenshot"/>
+        </div>
+
+        <div class="col s6 push-s3">
+          <h5>Time2Go</h5>
+          <p>Directions tool for optimal mode (e.g. drive, transit) given preference selection (e.g. weather, trip cost).</p>
+          <p>Stack: Javascript, Google Maps API, GitHub Pages front end</p>
+          <ul class="external-links">
+            <li><a href="http://alpha2262.github.io/time2go/index" target="_blank"><i class="material-icons left">web</i>Deployed Site</a></li>
+            <li><a href="https://github.com/alpha2262/time2go" target="_blank"><i class="material-icons left">computer</i>Github Repo</a></li>
+          </ul>
+          <br />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s3">
+          <img class="projectPicture" src="images/BuildingsMap4.png" alt="DC New and renovated buildings development map screenshot"/>
+        </div>
+        <div class="col s6 push-s3">
+          <h5>DC New/Renovated Buildings Development Map</h5>
+          <p>Database for tracking new developments and buildings renovations in the DC area. Users can add new locations, update existing entries, add comments as construction progresses, and delete when construction has completed.</p>
+          <p>Stack: Ruby on Rails, Heroku, Google Maps API</p>
+          <ul class="external-links">
             <li><a href="https://dc-development-map.herokuapp.com/" target="_blank"><i class="material-icons left">web</i>Deployed Site</a></li>
             <li><a href="https://github.com/alpha2262/DC_development_map" target="_blank"><i class="material-icons left">computer</i>Github Repo</a></li>
-        </ul>
-        <br />
-  <h5>In the Moment</h5>
-  <img class="projectPicture" src="images/InTheMoment2.png" alt="In the Moment screenshot"/>
-    <p>Team project where we created a friend and dating app with user reactions (moments) to provide a better matching experience.</p>
-    <p>Stack: AngularJS, Ruby on Rails, Heroku back end, GitHub Pages front end</p>
-      <ul class="external-links" id="disclaimer">
-        <li><a href="https://seantay.github.io/In-the-moment/#/profiles/17" target="_blank"><i class="material-icons left">web</i>Deployed Site*</a></li>
-        <li><a href="https://github.com/SeanTay/In-the-moment" target="_blank"><i class="material-icons left">computer</i>Github Repo (front end)</a></li>
-        <li><a href="https://github.com/SeanTay/datingapp-rails" target="_blank"><i class="material-icons left">computer</i>Github Repo (back end)</a></li>
-        <li class="highlight" id="highlightdisclaimer">*Please wait ~30 seconds for the Heroku server to start up to see images and comments</li>
-      </ul>
-    <h5><a href="contact.html"/>Contact Information</a></h5>
-      <br />
-</div>
+          </ul>
+          <br />
+        </div>
+      </div>
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      <div class="row">
+        <div class="col s3">
+          <img class="projectPicture" src="images/InTheMoment1.png" alt="In the Moment screenshot"/>
+        </div>
+        <div class="col s6 push-s3">
+          <h5>In the Moment</h5>
+          <p>Team project where we created a friend and dating app with user reactions (moments) to provide a better matching experience.</p>
+          <p>Stack: AngularJS, Ruby on Rails, Heroku back end, GitHub Pages front end</p>
+          <ul class="external-links" id="disclaimer">
+            <li><a href="https://seantay.github.io/In-the-moment/#/profiles/17" target="_blank"><i class="material-icons left">web</i>Deployed Site*</a></li>
+            <li><a href="https://github.com/SeanTay/In-the-moment" target="_blank"><i class="material-icons left">computer</i>Github Repo (front end)</a></li>
+            <li><a href="https://github.com/SeanTay/datingapp-rails" target="_blank"><i class="material-icons left">computer</i>Github Repo (back end)</a></li>
+            <li class="highlight" id="highlightdisclaimer">*Please wait ~30 seconds for the Heroku server to start up to see images and comments</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <h5 class="centerText"><a href="contact.html">Contact Information</a></h5>
+        </div>
+      </div>
+      <br />
+    </div>
+  </div>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-83009802-1', 'auto');
   ga('send', 'pageview');
-</script>
+  </script>
 
-  </body>
+</body>
 </html>
