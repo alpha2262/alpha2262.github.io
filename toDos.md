@@ -18,3 +18,5 @@ Higher priority updates:
 * Switch to single page app using jquery?
 * add pictures of projects; position on left-hand side?
 * mobile not displaying nav bar? whyyyyy (added code in about section)
+* change to one-column for projects and index segments on mobile
+* add mobile disclaimer on site
