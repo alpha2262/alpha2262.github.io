@@ -1,6 +1,8 @@
 $(document).ready(function(){
   console.log("document loaded")
 
+  $(".button-collapse").sideNav();
+  
   var disclaimerShown = false
 
   $("#disclaimer").mouseover(function(){
