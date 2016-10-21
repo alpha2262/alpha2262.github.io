@@ -10,6 +10,7 @@ To Do items:
 * add streetcar picture to contact page?
 * add JS to boost projects notification?
 * DRY up content where possible
+  * fix head and nav bars with props
 
 Higher priority updates:
 * fade in transition for welcome page on text
@@ -19,4 +20,4 @@ Higher priority updates:
 * add pictures of projects; position on left-hand side?
 * mobile not displaying nav bar? whyyyyy (added code in about section)
 * change to one-column for projects and index segments on mobile
-* add mobile disclaimer on site
+* responsive site
