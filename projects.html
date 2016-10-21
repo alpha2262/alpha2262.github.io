@@ -4,11 +4,11 @@
   <title>Michael Holzheimer: Projects</title>
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   <link rel="stylesheet" href="styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="./app.js"></script>
 </head>
 
@@ -17,18 +17,17 @@
   <div class="navbar-fixed">
     <nav class="no-shadow">
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo"></a>
-        <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a> -->
         <ul class="left hide-on-med-and-down">
           <li><a href="index.html"><i class="material-icons left">person</i>About Me</a></li>
           <li class="active"><a href="projects.html"><i class="material-icons left">view_module</i>Projects</a></li>
           <li><a href="contact.html"><i class="material-icons left">phone_iphone</i>Contact Me</a></li>
         </ul>
-        <ul class="side-nav" id="mobile-demo">
+        <ul class="side-nav" id="mobile-nav-bar">
           <li><a href="index.html"><i class="material-icons left">person</i>About Me</a></li>
-          <li class="active"><a href="projects.html"><i class="material-icons left">view_module</i>Projects</a></li>
+          <li><a href="projects.html"><i class="material-icons left">view_module</i>Projects</a></li>
           <li><a href="contact.html"><i class="material-icons left">phone_iphone</i>Contact Me</a></li>
         </ul>
+        <a href="#" data-activates="mobile-nav-bar" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
   </div>
@@ -41,11 +40,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="col s3">
+        <div class="col s12 m3 l3">
           <img class="projectPicture" src="images/Time2Go.png" alt="time2go screenshot"/>
         </div>
 
-        <div class="col s6 push-s3">
+        <div class="col s12 m6 l6 push-m3 push-l3">
           <h5>Time2Go</h5>
           <p>Directions tool for optimal mode (e.g. drive, transit) given preference selection (e.g. weather, trip cost).</p>
           <p>Stack: Javascript, Google Maps API, GitHub Pages front end</p>
@@ -58,10 +57,10 @@
       </div>
 
       <div class="row">
-        <div class="col s3">
+        <div class="col s12 m3 l3">
           <img class="projectPicture" src="images/BuildingsMap4.png" alt="DC New and renovated buildings development map screenshot"/>
         </div>
-        <div class="col s6 push-s3">
+        <div class="col s12 m6 l6 push-m3 push-l3">
           <h5>DC New/Renovated Buildings Development Map</h5>
           <p>Database for tracking new developments and buildings renovations in the DC area. Users can add new locations, update existing entries, add comments as construction progresses, and delete when construction has completed.</p>
           <p>Stack: Ruby on Rails, Heroku, Google Maps API</p>
@@ -74,10 +73,10 @@
       </div>
 
       <div class="row">
-        <div class="col s3">
+        <div class="col s12 m3 l3">
           <img class="projectPicture" src="images/InTheMoment1.png" alt="In the Moment screenshot"/>
         </div>
-        <div class="col s6 push-s3">
+        <div class="col s12 m6 l6 push-m3 push-l3">
           <h5>In the Moment</h5>
           <p>Team project where we created a friend and dating app with user reactions (moments) to provide a better matching experience.</p>
           <p>Stack: AngularJS, Ruby on Rails, Heroku back end, GitHub Pages front end</p>
